@@ -12,6 +12,16 @@ services:
       - .env
     depends_on:
       - mongodb
+
+  frontend:
+    build:
+      context: ./frontend # Pfade zur frontend-Ordnerstruktur anpassen
+      dockerfile: Dockerfile
+    container_name: pokedex-frontend
+    ports:
+      - 80:80
+    depends_on:
+      - backend
       
   mongodb:
     image: mongo

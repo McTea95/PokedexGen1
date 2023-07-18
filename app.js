@@ -20,6 +20,13 @@ const collectionName = process.env.MONGO_COLLECTION.toString();
 
 app.use(express.static('public'));
 
+// Pfad zum Frontend-Container
+const frontendPath = path.join(__dirname, '..', 'frontend', 'public');
+
+// Statische Dateien aus dem Frontend bereitstellen
+app.use(express.static(frontendPath));
+
+
 // being rendered res.render()
 app.set('views', path.join(__dirname, 'public/views'));
 
