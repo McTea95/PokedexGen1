@@ -1,0 +1,36 @@
+extends ../templates/layout.pug
+
+block logo
+    a(href="/") 
+        img.logodetail(src="../includes/bilder/logo.png", alt="Pokemon Logo")
+
+
+block body
+    div.detail
+        h1= pokemon.Name
+        h2= "PokeDexNr.: " +pokemon.Nummer
+        img.detailimg(src= "/includes/bilder/" + pokemon.Name + ".png", alt=pokemon.Name)
+        div.beschreibung    
+            p= pokemon.Beschreibung
+            p= "Größe: " + pokemon.Größe
+        
+        div.typenBeschreibung
+            include ./typen.pug
+
+        
+        a(href='/pokemons/' + previousPokemonName)
+                img.buttonlinks(src= "/includes/bilder/buttonLinks.png", alt="Linker Zurückbutton")
+                
+        a(href='/pokemons/' + nextPokemonName)
+                img.buttonrechts(src= "/includes/bilder/buttonRechts.png", alt="Linker Zurückbutton")
+
+
+        a(href='/pokemons/' + previousPokemonName)
+                img.buttonkeinlinks(src= "/includes/bilder/buttonKlein.png", alt="Linker Zurückbutton")
+                
+        a(href='/pokemons/' + nextPokemonName)
+                img.buttonkleinrechts(src= "/includes/bilder/buttonKlein.png", alt="Linker Zurückbutton")
+        
+        p.buttontextLinks= previousPokemonName
+
+        p.buttontextRechts= nextPokemonName        

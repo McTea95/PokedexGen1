@@ -1,0 +1,72 @@
+
+
+div.kartenset 
+    each element in pokemons
+        //- url für jede pokemon karte erstellen und in app.js ansprechen
+        a(href='/pokemons/' + element.Name, style='display: block; color: inherit; text-decoration: none;') 
+ 
+            div.karte 
+                
+                div     
+                    h3.karttext= element.Name
+                    h5.karttext= "Nr:" + element.Nummer 
+                    
+                             
+                         
+                img.bildKarte(src= "/includes/bilder/" + element.Name + ".png", alt=element.Name)
+                - var typen = element.Typ.split('/')
+                each typ in typen
+                    if typ === 'Normal'
+                        div.normal
+                            p Normal
+                    else if typ === 'Feuer'
+                        div.feuer
+                            p Feuer
+                    else if typ === 'Wasser'
+                        div.wasser
+                            p Wasser
+                    else if typ === 'Pflanze'
+                        div.pflanze
+                            p Pflanze
+                    else if typ === 'Elektro'
+                        div.elektro
+                            p Elektro
+                    else if typ === 'Eis'
+                        div.eis
+                            p Eis
+                    else if typ === 'Kampf'
+                        div.kampf
+                            p Kampf
+                    else if typ === 'Gift'
+                        div.gift
+                            p Gift
+                    else if typ === 'Boden'
+                        div.boden
+                            p Boden
+                    else if typ === 'Flug'
+                        div.flug
+                            p Flug
+                    else if typ === 'Psycho'
+                        div.psycho
+                            p Psycho
+                    else if typ === 'Käfer'
+                        div.kaefer
+                            p Käfer
+                    else if typ === 'Gestein'
+                        div.gestein
+                            p Gestein
+                    else if typ === 'Geist'
+                        div.geist
+                            p Geist
+                    else if typ === 'Drache'
+                        div.drache
+                            p Drache
+                    else if typ === 'Stahl'
+                        div.stahl
+                            p Stahl
+                    else if typ === 'Unlicht'
+                        div.unlicht
+                            p Unlicht
+                    else if typ === 'Fee'
+                        div.fee
+                            p Fee

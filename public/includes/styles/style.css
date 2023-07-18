@@ -1,0 +1,475 @@
+body {
+    /* Pfad zu Ihrem Bild */
+    background-image: url('../bilder/map.png');
+    
+    /* Hintergrundbild vollständig ausfüllen */
+    background-size: cover;
+    
+    /* Bild zentrieren */
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logoimg{
+    width: 600px;
+}
+
+img{
+    width: 200px;
+}
+
+.kartenset{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.karttext{
+    margin: 0px;
+} 
+
+.beschreibung{
+    position: absolute;
+    width: 300px;
+    /* background-color: #7038F8; */
+    top: 420px;
+    right: 170px;
+}
+
+.typenBeschreibung{
+    position: absolute;
+    /* background-color: #A040A0; */
+    top: 370px;
+    left: 170px;
+    width: 80px;
+}
+
+.pbeschreibung{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 15px;
+}
+
+
+.karte{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 350px;
+    background-color: lightgreen;
+    margin: 20px;
+    border-radius: 3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+body{
+    background-color: lightskyblue;
+}
+
+.normal {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #A8A878;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .feuer {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #F08030;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .wasser {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #6890F0;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .pflanze {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #78C850;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .elektro {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #F8D030;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .eis {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #98D8D8;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .kampf {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #C03028;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .gift {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #A040A0;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .boden {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #E0C068;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .flug {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #A890F0;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .psycho {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #F85888;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .kaefer {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #A8B820;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .gestein {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #B8A038;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .geist {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #705898;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .drache {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #7038F8;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .stahl {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #B8B8D0;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .unlicht {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #705848;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+  .fee {
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 23px;
+    text-align: center;
+    background-color: #EE99AC;
+    border-radius: 10px;
+    color: white;
+  }
+
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.detailimg{
+    width: 500px;
+}
+
+.detail{
+    /* display: flex; */
+    background-color: rgba(62, 216, 244, 0.63);
+    padding: 15px;
+    border-radius: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.detail img {
+    margin: auto;
+    display: block;
+}
+
+.detail p{
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detail h1{
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logodetail{
+    width: 300px;
+}
+
+.buttonlinks{
+    position: absolute;
+    top: 120px;
+    left: 8px;
+    width: 500px;
+    opacity: 0.7;
+}
+
+.buttonrechts{
+    position: absolute;
+    top: 120px;
+    right: 8px;
+    width: 500px;
+    opacity: 0.7;
+}
+
+
+.buttontextLinks{
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    font-size: 25px;
+}
+
+.buttontextRechts{
+    position: absolute;
+    top: 160px;
+    right: 200px;
+    font-size: 25px;
+}
+
+.buttonkeinlinks{
+       
+    visibility: hidden;
+}
+
+.buttonkleinrechts{
+    
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .buttonlinks{
+        position: absolute;
+        top: 120px;
+        left: 8px;
+        width: 300px;
+        opacity: 0.7;
+    }
+    
+    .buttonrechts{
+        position: absolute;
+        top: 120px;
+        right: 8px;
+        width: 300px;
+        opacity: 0.7;
+    }
+
+    .buttontextLinks{
+        position: absolute;
+        top: 130px;
+        left: 150px;
+        font-size: 18px;
+    }
+    
+    .buttontextRechts{
+        position: absolute;
+        top: 130px;
+        right: 150px;
+        font-size: 18px;
+    }
+
+    .buttonkeinlinks{
+       
+        visibility: hidden;
+    }
+
+    .buttonkleinrechts{
+        
+        visibility: hidden;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) { 
+    .buttonlinks {
+        opacity: 0;
+        display: none;
+    }
+    
+    .buttonrechts {
+        opacity: 0;
+        display: none;
+    }
+
+    .buttonkeinlinks{
+        visibility: visible;
+        position: absolute;
+        top: 120px;
+        left: 8px;
+        font-size: 18px;
+        width: 110px;
+        opacity: 0.7;
+    }
+
+    .buttonkleinrechts{
+        visibility: visible;
+        position: absolute;
+        top: 120px;
+        right: 8px;
+        font-size: 18px;
+        width: 110px;
+        opacity: 0.7;
+    }
+
+    .buttontextLinks{
+        position: absolute;
+        top: 220px;
+        left: 35px;
+        font-size: 15px;
+        
+    }
+    
+    .buttontextRechts{
+        position: absolute;
+        top: 220px;
+        right: 35px;
+        font-size: 15px;
+        
+    }
+}

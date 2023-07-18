@@ -1,0 +1,242 @@
+[
+    {
+        "Name": "Bisasam",
+        "Typ": "Pflanze/Gift",
+        "Beschreibung": "Bisasam nimmt während der Entwicklung Energie aus seiner Umgebung auf. Die Knospe auf seinem Rücken wird größer und entwickelt sich zu einem Blütenstand.",
+        "Größe": "0.7 m",
+        "Nummer": "001",
+        "Schwächen": "Feuer/Flug/Eis/Psycho"
+    },
+    {
+        "Name": "Bisaknosp",
+        "Typ": "Pflanze/Gift",
+        "Beschreibung": "Bisaknosp besitzt einen großen Blütenstand auf seinem Rücken. In diesem Blütenstand befinden sich Pflanzen, die das Pokémon mit Nährstoffen versorgen.",
+        "Größe": "1.0 m",
+        "Nummer": "002",
+        "Schwächen": "Feuer/Flug/Eis/Psycho"
+    },
+    {
+        "Name": "Bisaflor",
+        "Typ": "Pflanze/Gift",
+        "Beschreibung": "Bisaflor sammelt Sonnenlicht mit seinen Blütenblättern und wandelt es in Energie um. Es ist in der Lage, einen starken Duft zu verströmen, um Feinde abzuschrecken.",
+        "Größe": "2.0 m",
+        "Nummer": "003",
+        "Schwächen": "Feuer/Flug/Eis/Psycho"
+    },
+    {
+        "Name": "Glumanda",
+        "Typ": "Feuer",
+        "Beschreibung": "Glumanda speichert Flammen in seinem Bauch, die als Indikator für seine Gesundheit dienen. Es ist äußerst selten in freier Wildbahn anzutreffen.",
+        "Größe": "0.6 m",
+        "Nummer": "004",
+        "Schwächen": "Wasser/Boden/Gestein"
+    },
+    {
+        "Name": "Glutexo",
+        "Typ": "Feuer",
+        "Beschreibung": "Glutexo hat ein starkes Feuer in seinem Inneren, das von Tag zu Tag größer wird. Es wird schnell wütend und ist ein hartnäckiger Kämpfer.",
+        "Größe": "1.1 m",
+        "Nummer": "005",
+        "Schwächen": "Wasser/Boden/Gestein"
+    },
+    {
+        "Name": "Glurak",
+        "Typ": "Feuer/Flug",
+        "Beschreibung": "Glurak ist ein gefährliches und beeindruckendes Pokémon. Mit seinen mächtigen Flügeln kann es Feuerbälle erzeugen, die ganze Landschaften in Brand setzen können.",
+        "Größe": "1.7 m",
+        "Nummer": "006",
+        "Schwächen": "Wasser/Elektro/Gestein"
+    },
+    {
+        "Name": "Schiggy",
+        "Typ": "Wasser",
+        "Beschreibung": "Schiggy ist ein kleines und süßes Pokémon, das eine harte Schale trägt. Es kann in Gewässern leben und mit seinen Flossen schnell schwimmen.",
+        "Größe": "0.5 m",
+        "Nummer": "007",
+        "Schwächen": "Elektro/Pflanze"
+    },
+    {
+        "Name": "Schillok",
+        "Typ": "Wasser",
+        "Beschreibung": "Schillok hat eine größere und stabilere Panzerung als Schiggy. Es kann auf dem Wasser laufen und sogar kurze Strecken schwimmen.",
+        "Größe": "1.0 m",
+        "Nummer": "008",
+        "Schwächen": "Elektro/Pflanze"
+    },
+    {
+        "Name": "Turtok",
+        "Typ": "Wasser",
+        "Beschreibung": "Turtok ist eine imposante Pokémon-Art. Sein mächtiger Panzer schützt es vor Feinden und es kann Wasserstrahlen mit hoher Geschwindigkeit abfeuern.",
+        "Größe": "1.6 m",
+        "Nummer": "009",
+        "Schwächen": "Elektro/Pflanze"
+    },
+    {
+        "Name": "Raupy",
+        "Typ": "Käfer",
+        "Beschreibung": "Raupy ist ein kleines und schwaches Pokémon. Es ernährt sich hauptsächlich von Pflanzen und ist ein beliebtes Ziel für Raubtiere.",
+        "Größe": "0.3 m",
+        "Nummer": "010",
+        "Schwächen": "Feuer/Flug/Gestein"
+    },
+    {
+        "Name": "Safcon",
+        "Typ": "Käfer",
+        "Beschreibung": "Safcon hat eine leicht entflammbare Substanz auf seinem Rücken, die es zum Schutz verwendet. Bei Gefahr kann es diese Substanz zünden und den Feind abschrecken.",
+        "Größe": "0.7 m",
+        "Nummer": "011",
+        "Schwächen": "Feuer/Flug/Gestein"
+    },
+    {
+        "Name": "Smettbo",
+        "Typ": "Käfer/Flug",
+        "Beschreibung": "Smettbo ist ein elegantes und schnelles Pokémon. Es kann mit seinen Flügeln starke Winde erzeugen, die es ihm ermöglichen, sich in der Luft zu halten.",
+        "Größe": "1.1 m",
+        "Nummer": "012",
+        "Schwächen": "Feuer/Elektro/Gestein/Eis"
+    },
+    {
+        "Name": "Hornliu",
+        "Typ": "Käfer/Gift",
+        "Beschreibung": "Hornliu hat einen scharfen Stachel auf seinem Kopf, den es zum Schutz verwendet. Es ernährt sich von Pflanzensaft und kann mit seinem Stachel feindliche Pokémon angreifen.",
+        "Größe": "0.3 m",
+        "Nummer": "013",
+        "Schwächen": "Feuer/Flug/Psycho/Gestein"
+    },
+    {
+        "Name": "Kokuna",
+        "Typ": "Käfer/Gift",
+        "Beschreibung": "Kokuna hat sich vollständig in eine schützende Hülle eingesponnen. Es ist fast bewegungsunfähig und wartet darauf, sich zu entwickeln.",
+        "Größe": "0.6 m",
+        "Nummer": "014",
+        "Schwächen": "Feuer/Flug/Psycho/Gestein"
+    },
+    {
+        "Name": "Bibor",
+        "Typ": "Käfer/Gift",
+        "Beschreibung": "Bibor ist ein gefährliches und aggressives Pokémon. Seine Stacheln sind hochgiftig und können starke Vergiftungen verursachen.",
+        "Größe": "1.0 m",
+        "Nummer": "015",
+        "Schwächen": "Feuer/Flug/Psycho/Gestein"
+    },
+    {
+        "Name": "Taubsi",
+        "Typ": "Normal/Flug",
+        "Beschreibung": "Taubsi ist ein häufig anzutreffendes Pokémon. Es kann mit seinen kleinen Flügeln kurze Strecken fliegen und hat einen scharfen Blick für Beute.",
+        "Größe": "0.3 m",
+        "Nummer": "016",
+        "Schwächen": "Elektro/Eis/Gestein"
+    },
+    {
+        "Name": "Tauboga",
+        "Typ": "Normal/Flug",
+        "Beschreibung": "Tauboga ist größer und stärker als Taubsi. Es kann längere Strecken fliegen und hat einen ausgezeichneten Orientierungssinn.",
+        "Größe": "0.8 m",
+        "Nummer": "017",
+        "Schwächen": "Elektro/Eis/Gestein"
+    },
+    {
+        "Name": "Tauboss",
+        "Typ": "Normal/Flug",
+        "Beschreibung": "Tauboss ist ein imposantes und dominantes Pokémon. Es kann große Höhen erreichen und hat eine beeindruckende Flugleistung.",
+        "Größe": "1.5 m",
+        "Nummer": "018",
+        "Schwächen": "Elektro/Eis/Gestein"
+    },
+    {
+        "Name": "Rattfratz",
+        "Typ": "Normal",
+        "Beschreibung": "Rattfratz ist ein kleines und schnelles Pokémon. Es ist bekannt dafür, in menschlichen Siedlungen nach Nahrung zu suchen.",
+        "Größe": "0.3 m",
+        "Nummer": "019",
+        "Schwächen": "Kampf"
+    },
+    {
+        "Name": "Rattikarl",
+        "Typ": "Normal",
+        "Beschreibung": "Rattikarl ist größer und stärker als Rattfratz. Es hat scharfe Zähne und kann mit ihnen starke Bisse ausführen.",
+        "Größe": "0.7 m",
+        "Nummer": "020",
+        "Schwächen": "Kampf"
+    },
+    {
+        "Name": "Habitak",
+        "Typ": "Normal/Flug",
+        "Beschreibung": "Habitak ist ein kräftiges und flugfähiges Pokémon. Es hat einen scharfen Schnabel und starke Krallen, mit denen es seine Beute erlegt.",
+        "Größe": "0.8 m",
+        "Nummer": "021",
+        "Schwächen": "Elektro/Eis/Gestein"
+    },
+    {
+        "Name": "Ibitak",
+        "Typ": "Normal/Flug",
+        "Beschreibung": "Ibitak hat eine beeindruckende Flugleistung und kann großeDistanzen zurücklegen. Es hat ein scharfes Auge und kann kleinste Bewegungen wahrnehmen.",
+        "Größe": "1.2 m",
+        "Nummer": "022",
+        "Schwächen": "Elektro/Eis/Gestein"
+    },
+    {
+        "Name": "Rettan",
+        "Typ": "Gift",
+        "Beschreibung": "Rettan ist ein giftiges Pokémon. Es hat scharfe Zähne und kann giftige Substanzen in seinen Bissen absondern.",
+        "Größe": "2.0 m",
+        "Nummer": "023",
+        "Schwächen": "Psycho/Boden"
+    },
+    {
+        "Name": "Arbok",
+        "Typ": "Gift",
+        "Beschreibung": "Arbok ist eine gefährliche und giftige Pokémon-Art. Es hat eine große Kobra auf seinem Rücken und kann mit seinem Biss starke Vergiftungen verursachen.",
+        "Größe": "3.5 m",
+        "Nummer": "024",
+        "Schwächen": "Psycho/Boden"
+    },
+    {
+        "Name": "Pikachu",
+        "Typ": "Elektro",
+        "Beschreibung": "Pikachu ist ein beliebtes und ikonisches Pokémon. Es erzeugt Elektrizität in seinen Backentaschen und kann damit starke Blitzangriffe ausführen.",
+        "Größe": "0.4 m",
+        "Nummer": "025",
+        "Schwächen": "Boden"
+    },
+    {
+        "Name": "Raichu",
+        "Typ": "Elektro",
+        "Beschreibung": "Raichu ist die Weiterentwicklung von Pikachu. Es hat längere Ohren und einen stärkeren Elektroschock. Raichu kann Elektrizität durch seinen ganzen Körper fließen lassen.",
+        "Größe": "0.8 m",
+        "Nummer": "026",
+        "Schwächen": "Boden"
+    },
+    {
+        "Name": "Sandan",
+        "Typ": "Boden",
+        "Beschreibung": "Sandan ist ein Pokémon, das sich in eine harte Sandschale gehüllt hat. Es ist bekannt für seinen schnellen und überraschenden Angriff aus dem Boden.",
+        "Größe": "0.6 m",
+        "Nummer": "027",
+        "Schwächen": "Wasser/Pflanze/Eis/Kampf/Boden"
+    },
+    {
+        "Name": "Sandamer",
+        "Typ": "Boden",
+        "Beschreibung": "Sandamer ist die Weiterentwicklung von Sandan. Es hat lange Krallen, die es zum Graben verwendet. Es kann auch Sandstürme erzeugen, um seine Feinde zu irritieren.",
+        "Größe": "1.0 m",
+        "Nummer": "028",
+        "Schwächen": "Wasser/Pflanze/Eis/Kampf/Boden"
+    },
+    {
+        "Name": "Nidoran",
+        "Typ": "Gift",
+        "Beschreibung": "Nidoran ist ein giftiges Pokémon. Es hat scharfe Stacheln auf seinem Rücken und kann giftige Substanzen in der Umgebung wahrnehmen.",
+        "Größe": "0.4 m",
+        "Nummer": "029",
+        "Schwächen": "Psycho/Boden"
+    },
+    {
+        "Name": "Nidorina",
+        "Typ": "Gift",
+        "Beschreibung": "Nidorina ist die Weiterentwicklung von Nidoran♀. Es hat längere Stacheln und kann mit ihnen feindliche Pokémon abwehren. Nidorina ist vorsichtig und misstrauisch gegenüber Fremden.",
+        "Größe": "0.8 m",
+        "Nummer": "030",
+        "Schwächen": "Psycho/Boden"
+    }
+]

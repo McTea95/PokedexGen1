@@ -1,0 +1,33 @@
+version: '3.5'
+services:
+  backend:
+    build:  # Verwendet das Dockerfile im aktuellen Kontext zum Erstellen des Images
+      context: .
+      dockerfile: Dockerfile
+    container_name: pokedex  # Setzt den Namen des Containers auf "pokedex"
+    ports:
+      - 3000:3000  # Leitet den Port 3000 im Container auf den Port 3000 des Hosts weiter
+    # Weitere Konfigurationsoptionen für den Container können hier hinzugefügt werden
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+      
+  mongodb:
+    image: mongo
+    container_name: my_mongodb
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data:/db
+    env_file:
+      - .env
+
+  mongo-import:
+    image: mongo
+    container_name: mongo_import
+    volumes:
+      - ./data:/data
+    command: mongoimport --host mongodb --db $MONGO_DATABASE --collection $MONGO_COLLECTION --file /data/pokemon.json --jsonArray
+    depends_on:
+      - mongodb
