@@ -34,8 +34,9 @@ app.get('/', async (req, res) => {
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
 
-    // Alle Dokumente in der Sammlung abfragen
-    const pokemons = await collection.find({}).toArray();
+    // Alle Dokumente in der Sammlung abfragen und nach "Nummer" sortieren
+    const pokemons = await collection.find({}).sort({ Nummer: 1 }).toArray();
+
 
     // Antwort senden
     res.render('index', { pokemons });
@@ -74,8 +75,9 @@ app.get('/pokemons/:name', async (req, res) => {
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
 
-    // Alle Dokumente in der Sammlung abfragen
-    const pokemons = await collection.find({}).toArray();
+    // Alle Dokumente in der Sammlung abfragen und nach "Nummer" sortieren
+    const pokemons = await collection.find({}).sort({ Nummer: 1 }).toArray();
+
 
     // Antwort senden
     // Hier finden Sie das entsprechende Pokémon anhand seines Namens
