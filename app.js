@@ -21,7 +21,7 @@ const collectionName = process.env.MONGO_COLLECTION.toString();
 app.use(express.static('public'));
 
 // being rendered res.render()
-app.set('views', path.join(__dirname, 'public/views'));
+app.set('views', path.join('public/views'));
 
 // Set view engine as Pug
 app.set('view engine', 'pug');
